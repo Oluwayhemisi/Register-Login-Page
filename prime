@@ -1,0 +1,14 @@
+function prime(number){
+    let val = ""
+    for(let i = 2; i < number/2; i++){
+
+    if (number % i == 0){
+            val = "this is not a prime number"
+    } else val = "this is a prime number"
+
+    return val
+}
+}
+
+
+console.log(prime(5))

@@ -1,0 +1,13 @@
+
+function reverse(number){
+    let numberStr = number.toString()
+    let a = ""
+   for(var i = numberStr.length -1; i >= 0; i--){
+    a += numberStr[i]
+    num = a.valueOf()
+     
+
+   }
+   return  num;
+}
+console.log(reverse(1234))
